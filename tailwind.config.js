@@ -6,33 +6,38 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'light-blue': '#f0f8ff',
-        'light-purple': '#f8f4ff',
-        'light-green': '#f0fff4',
-        'light-pink': '#fff0f8',
-        'light-yellow': '#fffef0',
-        'accent-blue': '#e3f2fd',
-        'accent-purple': '#f3e5f5',
-        'accent-green': '#e8f5e8',
-        'accent-pink': '#fce4ec',
-        'accent-yellow': '#fff9c4',
+        // Clean white theme colors
+        'light-blue': '#f8fafc',
+        'light-purple': '#f9fafb',
+        'light-green': '#f8fafc',
+        'light-pink': '#f9fafb',
+        'light-yellow': '#fafafa',
+        'accent-blue': '#f1f5f9',
+        'accent-purple': '#f8fafc',
+        'accent-green': '#f1f5f9',
+        'accent-pink': '#f8fafc',
+        'accent-yellow': '#f9fafb',
         'brand': {
-          'primary': '#2563eb',
-          'secondary': '#7c3aed',
-          'accent': '#06b6d4',
-          'success': '#10b981',
-          'warning': '#f59e0b',
-          'light': '#f8fafc',
-          'dark': '#1e293b',
-          'brand': {
-          'primary': '#2563eb',
-      },
-          'secondary': '#7c3aed',
-          'accent': '#06b6d4',
-          'success': '#10b981',
-          'warning': '#f59e0b',
-          'light': '#f8fafc',
-          'dark': '#1e293b',
+          'primary': '#1e293b',     // Dark slate for primary
+          'secondary': '#475569',   // Medium slate for secondary
+          'accent': '#0ea5e9',      // Sky blue for accents
+          'success': '#059669',     // Emerald green for success
+          'warning': '#d97706',     // Amber for warnings
+          'light': '#ffffff',       // Pure white
+          'dark': '#0f172a',        // Very dark slate
+          'muted': '#64748b',       // Muted slate for text
+          'border': '#e2e8f0',      // Light border color
+          'background': '#ffffff',  // White background
+          'surface': '#f8fafc',     // Light surface color
+        },
+        // Service card colors
+        'service': {
+          'purple': '#8b5cf6',      // Purple for influencer partnerships
+          'emerald': '#10b981',     // Emerald for brand monitoring
+          'rose': '#f43f5e',        // Rose for awards & recognition
+          'indigo': '#6366f1',      // Indigo for content creation
+          'orange': '#f97316',      // Orange for event management
+          'teal': '#14b8a6',        // Teal for digital strategy
         },
       },
       animation: {
