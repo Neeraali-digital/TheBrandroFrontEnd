@@ -10,10 +10,10 @@ export class Header {
   isMobileMenuOpen = false;
 
   navigationItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'Services', href: '#services' },
-    { label: 'Portfolio', href: '#portfolio' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Home', href: '#home', icon: 'home' },
+    { label: 'Services', href: '#services', icon: 'services' },
+    { label: 'Portfolio', href: '#portfolio', icon: 'portfolio' },
+    { label: 'Contact', href: '#contact', icon: 'contact' }
   ];
 
   toggleMobileMenu() {

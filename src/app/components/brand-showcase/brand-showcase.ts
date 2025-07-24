@@ -80,10 +80,10 @@ export class BrandShowcase implements OnInit, OnDestroy {
 
   private startAutoSlide(): void {
     if (!isPlatformBrowser(this.platformId)) return;
-    
+
     this.slideInterval = setInterval(() => {
       this.nextSlide();
-    }, 5000); // Change slide every 5 seconds
+    }, 2000); // Change slide every 2 seconds
   }
 
   private stopAutoSlide(): void {
