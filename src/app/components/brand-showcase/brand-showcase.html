@@ -1,0 +1,379 @@
+<div class="relative w-full h-[40vh] min-h-[400px] lg:h-[50vh] lg:min-h-[500px] overflow-hidden">
+  <!-- Revolutionary Background -->
+  <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
+    <!-- Animated particles -->
+    <div class="absolute inset-0 overflow-hidden">
+      <div class="absolute top-1/4 left-1/4 w-2 h-2 bg-blue-400 rounded-full animate-ping opacity-60"></div>
+      <div class="absolute top-3/4 right-1/4 w-1.5 h-1.5 bg-purple-400 rounded-full animate-ping opacity-60" style="animation-delay: 1s;"></div>
+      <div class="absolute bottom-1/4 left-1/3 w-1 h-1 bg-pink-400 rounded-full animate-ping opacity-60" style="animation-delay: 2s;"></div>
+    </div>
+  </div>
+
+  <!-- Slides Container -->
+  <div class="absolute inset-0 w-full h-full">
+    <!-- Slide 1: Tech Giants -->
+    <div class="absolute inset-0 transition-all duration-1000 ease-in-out" 
+         [class.opacity-100]="currentSlide === 0" 
+         [class.opacity-0]="currentSlide !== 0"
+         [class.z-10]="currentSlide === 0"
+         [class.z-0]="currentSlide !== 0">
+      <div class="relative w-full h-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center">
+        <!-- Overlay Pattern -->
+        <div class="absolute inset-0 opacity-20">
+          <div class="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMzYgMzRoLTJ2LTRoMnY0em0wLTZ2LTRoLTJ2NGgyek0yNCAzNGgydi00aC0ydjR6bTAtNnYtNGgtMnY0aDJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] bg-repeat"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <!-- Text Content -->
+            <div class="text-white">
+              <div class="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-4 animate-fade-in-down">
+                <span class="text-white">Tech Giants Partnership</span>
+              </div>
+              <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 animate-fade-in-up">
+                <span class="text-white">Powering</span>
+                <span class="text-yellow-300"> Tech Leaders</span>
+                <span class="text-white"> with</span>
+                <span class="text-yellow-300"> Brandro</span>
+              </h2>
+              <p class="text-white/90 text-base sm:text-lg mb-4 max-w-xl animate-fade-in-up" style="animation-delay: 0.2s;">
+                Strategic PR partnerships with the world's leading tech companies, elevating their brand presence through Brandro's revolutionary PR strategies.
+              </p>
+            </div>
+            
+            <!-- Brand Logos -->
+            <div class="grid grid-cols-2 gap-4 animate-fade-in-right">
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-blue-600 text-2xl font-bold">G</span>
+                  </div>
+                  <p class="text-white text-sm">Global Tech</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-purple-600 text-2xl font-bold">A</span>
+                  </div>
+                  <p class="text-white text-sm">Apex Digital</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-blue-600 text-2xl font-bold">M</span>
+                  </div>
+                  <p class="text-white text-sm">Meta Systems</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-purple-600 text-2xl font-bold">T</span>
+                  </div>
+                  <p class="text-white text-sm">TechVision</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2: Luxury Brands -->
+    <div class="absolute inset-0 transition-all duration-1000 ease-in-out" 
+         [class.opacity-100]="currentSlide === 1" 
+         [class.opacity-0]="currentSlide !== 1"
+         [class.z-10]="currentSlide === 1"
+         [class.z-0]="currentSlide !== 1">
+      <div class="relative w-full h-full bg-gradient-to-r from-amber-700 to-red-800 flex items-center">
+        <!-- Overlay Pattern -->
+        <div class="absolute inset-0 opacity-20">
+          <div class="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMzAgMzNoMzB2MkgzMHYzMGgtMlYzNUgwdi0yaDI4VjBoMnYzM3ptMC0ydi0yOWgydjI5aC0yeiIvPjwvZz48L2c+PC9zdmc+')] bg-repeat"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <!-- Text Content -->
+            <div class="text-white">
+              <div class="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-4 animate-fade-in-down">
+                <span class="text-white">Luxury Brand Collaboration</span>
+              </div>
+              <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 animate-fade-in-up">
+                <span class="text-white">Elevating</span>
+                <span class="text-amber-300"> Luxury</span>
+                <span class="text-white"> with</span>
+                <span class="text-amber-300"> Brandro</span>
+              </h2>
+              <p class="text-white/90 text-base sm:text-lg mb-4 max-w-xl animate-fade-in-up" style="animation-delay: 0.2s;">
+                Exclusive PR partnerships with premium luxury brands, crafting sophisticated narratives that resonate with discerning audiences worldwide.
+              </p>
+            </div>
+            
+            <!-- Brand Logos -->
+            <div class="grid grid-cols-2 gap-4 animate-fade-in-right">
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-amber-700 text-2xl font-bold">L</span>
+                  </div>
+                  <p class="text-white text-sm">Luxe Elite</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-red-800 text-2xl font-bold">P</span>
+                  </div>
+                  <p class="text-white text-sm">Prestige</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-amber-700 text-2xl font-bold">R</span>
+                  </div>
+                  <p class="text-white text-sm">Royal Craft</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-red-800 text-2xl font-bold">E</span>
+                  </div>
+                  <p class="text-white text-sm">Elegance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3: Fashion & Lifestyle -->
+    <div class="absolute inset-0 transition-all duration-1000 ease-in-out" 
+         [class.opacity-100]="currentSlide === 2" 
+         [class.opacity-0]="currentSlide !== 2"
+         [class.z-10]="currentSlide === 2"
+         [class.z-0]="currentSlide !== 2">
+      <div class="relative w-full h-full bg-gradient-to-r from-pink-600 to-purple-700 flex items-center">
+        <!-- Overlay Pattern -->
+        <div class="absolute inset-0 opacity-20">
+          <div class="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMzAgNTJoMzB2MkgzMHYzMGgtMlY1NEgwdi0yaDI4VjBoMnY1MnptMC0ydi0yOGgydjI4aC0yeiIvPjwvZz48L2c+PC9zdmc+')] bg-repeat"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <!-- Text Content -->
+            <div class="text-white">
+              <div class="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-4 animate-fade-in-down">
+                <span class="text-white">Fashion & Lifestyle Partners</span>
+              </div>
+              <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 animate-fade-in-up">
+                <span class="text-white">Trending</span>
+                <span class="text-pink-300"> Fashion</span>
+                <span class="text-white"> with</span>
+                <span class="text-pink-300"> Brandro</span>
+              </h2>
+              <p class="text-white/90 text-base sm:text-lg mb-4 max-w-xl animate-fade-in-up" style="animation-delay: 0.2s;">
+                Cutting-edge PR collaborations with fashion and lifestyle brands, creating viral campaigns that capture the zeitgeist and drive cultural conversations.
+              </p>
+            </div>
+            
+            <!-- Brand Logos -->
+            <div class="grid grid-cols-2 gap-4 animate-fade-in-right">
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-pink-600 text-2xl font-bold">F</span>
+                  </div>
+                  <p class="text-white text-sm">Fashionista</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-purple-700 text-2xl font-bold">U</span>
+                  </div>
+                  <p class="text-white text-sm">Urban Style</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-pink-600 text-2xl font-bold">V</span>
+                  </div>
+                  <p class="text-white text-sm">Vogue Plus</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-purple-700 text-2xl font-bold">T</span>
+                  </div>
+                  <p class="text-white text-sm">Trendsetter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4: Sustainable Brands -->
+    <div class="absolute inset-0 transition-all duration-1000 ease-in-out" 
+         [class.opacity-100]="currentSlide === 3" 
+         [class.opacity-0]="currentSlide !== 3"
+         [class.z-10]="currentSlide === 3"
+         [class.z-0]="currentSlide !== 3">
+      <div class="relative w-full h-full bg-gradient-to-r from-green-600 to-teal-600 flex items-center">
+        <!-- Overlay Pattern -->
+        <div class="absolute inset-0 opacity-20">
+          <div class="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMzAgMzNoMzB2MkgzMHYzMGgtMlYzNUgwdi0yaDI4VjBoMnYzM3ptMC0ydi0yOWgydjI5aC0yeiIvPjwvZz48L2c+PC9zdmc+')] bg-repeat"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <!-- Text Content -->
+            <div class="text-white">
+              <div class="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-4 animate-fade-in-down">
+                <span class="text-white">Eco-Friendly Partnerships</span>
+              </div>
+              <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 animate-fade-in-up">
+                <span class="text-white">Sustainable</span>
+                <span class="text-green-300"> Future</span>
+                <span class="text-white"> with</span>
+                <span class="text-green-300"> Brandro</span>
+              </h2>
+              <p class="text-white/90 text-base sm:text-lg mb-4 max-w-xl animate-fade-in-up" style="animation-delay: 0.2s;">
+                Strategic PR collaborations with eco-conscious brands, amplifying sustainability initiatives and building authentic connections with environmentally aware audiences.
+              </p>
+            </div>
+            
+            <!-- Brand Logos -->
+            <div class="grid grid-cols-2 gap-4 animate-fade-in-right">
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-green-600 text-2xl font-bold">E</span>
+                  </div>
+                  <p class="text-white text-sm">EcoLife</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-teal-600 text-2xl font-bold">G</span>
+                  </div>
+                  <p class="text-white text-sm">GreenTech</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-green-600 text-2xl font-bold">S</span>
+                  </div>
+                  <p class="text-white text-sm">Sustain Co</p>
+                </div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-all duration-300 flex items-center justify-center">
+                <div class="text-center">
+                  <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-2">
+                    <span class="text-teal-600 text-2xl font-bold">T</span>
+                  </div>
+                  <p class="text-white text-sm">Terra Pure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5: YouTube Video - PR Branding Insights -->
+    <div class="absolute inset-0 transition-all duration-1000 ease-in-out"
+         [class.opacity-100]="currentSlide === 4"
+         [class.opacity-0]="currentSlide !== 4"
+         [class.z-10]="currentSlide === 4"
+         [class.z-0]="currentSlide !== 4">
+      <div class="relative w-full h-full bg-gradient-to-br from-red-600 via-red-700 to-red-800 flex items-center">
+        <!-- YouTube-style background pattern -->
+        <div class="absolute inset-0 opacity-10">
+          <div class="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMjAgMGwyMCAyMC0yMCAyMEwwIDIweiIvPjwvZz48L2c+PC9zdmc+')] bg-repeat"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 h-full flex items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
+            <!-- Video Content -->
+            <div class="order-2 lg:order-1">
+              <div class="relative aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl group">
+                <!-- YouTube Video Embed -->
+                <iframe
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=example&controls=1&modestbranding=1&rel=0"
+                  title="PR Branding Strategies - The Brandro Way"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+                <!-- Play button overlay for styling -->
+                <div class="absolute inset-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                  <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center">
+                    <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Text Content -->
+            <div class="text-white order-1 lg:order-2">
+              <div class="inline-block px-4 py-2 bg-red-500/20 backdrop-blur-sm rounded-full text-sm font-medium mb-6 animate-fade-in-down">
+                <span class="text-red-300">🎥 Video Insights</span>
+              </div>
+              <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up leading-tight">
+                <span class="text-white">Master</span>
+                <span class="text-red-300"> PR Branding</span>
+                <span class="text-white"> Strategies</span>
+              </h2>
+              <p class="text-white/90 text-lg sm:text-xl mb-8 max-w-2xl animate-fade-in-up leading-relaxed" style="animation-delay: 0.2s;">
+                Watch our exclusive insights on revolutionary PR branding techniques that have transformed global brands and discover the secrets behind successful campaigns.
+              </p>
+              <div class="space-y-4 animate-fade-in-up" style="animation-delay: 0.4s;">
+                <div class="flex items-center space-x-3">
+                  <div class="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span class="text-white/90">Strategic Brand Positioning</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <div class="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span class="text-white/90">Crisis Communication Mastery</span>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <div class="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span class="text-white/90">Digital PR Innovation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Dots -->
+  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+    <button 
+      *ngFor="let slide of slides; let i = index"
+      (click)="goToSlide(i)"
+      [class]="getDotClass(i)"
+      class="w-2.5 h-2.5 rounded-full transition-all duration-300 hover:scale-125">
+    </button>
+  </div>
+</div>

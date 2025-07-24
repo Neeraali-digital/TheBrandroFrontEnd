@@ -1,46 +1,106 @@
-<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg shadow-sm border-b border-brand-border transition-all duration-300">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16 sm:h-18 lg:h-20">
-      <!-- Brand -->
-      <div class="flex flex-col justify-center min-w-0 flex-shrink-0">
-        <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-brand-primary leading-none tracking-tight">
-          The Brandro
-        </h1>
-        <span class="text-xs sm:text-sm text-brand-accent font-medium uppercase tracking-wider leading-none mt-0.5">
-          #1 PR Brand Worldwide
-        </span>
+<header class="fixed top-0 left-0 right-0 z-50 glass-card-strong border-b border-glass-border transition-all duration-300 hover:shadow-glow backdrop-blur-xl bg-white/80">
+  <!-- Revolutionary background pattern -->
+  <div class="absolute inset-0 bg-gradient-to-r from-blue-50/30 via-transparent to-purple-50/30"></div>
+
+  <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 relative z-10">
+    <div class="flex items-center justify-between h-16 xs:h-18 sm:h-20 lg:h-22">
+      <!-- Revolutionary Enhanced Brand Logo -->
+      <div class="flex items-center space-x-3 min-w-0 flex-shrink-0 group cursor-pointer">
+        <!-- Animated Logo Icon -->
+        <div class="relative">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all duration-500 shadow-lg">
+            <!-- Animated inner elements -->
+            <div class="absolute inset-1 bg-white/20 rounded-lg group-hover:bg-white/30 transition-colors duration-300"></div>
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-white relative z-10 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <!-- Floating particles around logo -->
+          <div class="absolute -top-1 -right-1 w-2 h-2 bg-blue-400 rounded-full animate-ping opacity-60 group-hover:opacity-100"></div>
+          <div class="absolute -bottom-1 -left-1 w-1.5 h-1.5 bg-purple-400 rounded-full animate-ping opacity-60 group-hover:opacity-100" style="animation-delay: 1s;"></div>
+        </div>
+
+        <!-- Enhanced Brand Text -->
+        <div class="flex flex-col justify-center">
+          <h1 class="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent leading-none tracking-tight group-hover:scale-105 transition-transform duration-300">
+            <span class="hidden xs:inline">The Brandro</span>
+            <span class="xs:hidden">Brandro</span>
+          </h1>
+          <div class="flex items-center space-x-2 mt-1">
+            <span class="text-xs sm:text-sm bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent font-bold uppercase tracking-wider leading-none">
+              <span class="hidden sm:inline">World's #1 PR Brand</span>
+              <span class="sm:hidden">#1 PR Brand</span>
+            </span>
+            <!-- Animated status indicators -->
+            <div class="flex items-center space-x-1">
+              <div class="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
+              <div class="w-1 h-1 bg-blue-400 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
+              <div class="w-1.5 h-1.5 bg-purple-400 rounded-full animate-pulse" style="animation-delay: 1s;"></div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
-        <a href="#home" class="text-brand-muted hover:text-brand-primary font-medium transition-all duration-200 px-3 lg:px-4 py-2 rounded-lg hover:bg-brand-surface text-sm lg:text-base">
-          Home
+        <a href="#home" class="nav-link text-brand-muted hover:text-brand-primary font-medium transition-all duration-300 px-3 lg:px-4 py-2 rounded-lg hover:bg-glass-light hover:backdrop-blur-glass text-sm lg:text-base relative overflow-hidden group">
+          <span class="relative z-10">Home</span>
+          <div class="absolute inset-0 bg-gradient-to-r from-brand-accent/20 to-brand-accent-end/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </a>
-        <a href="#services" class="text-brand-muted hover:text-brand-primary font-medium transition-all duration-200 px-3 lg:px-4 py-2 rounded-lg hover:bg-brand-surface text-sm lg:text-base">
-          Services
+        <a href="#services" class="nav-link text-brand-muted hover:text-brand-primary font-medium transition-all duration-300 px-3 lg:px-4 py-2 rounded-lg hover:bg-glass-light hover:backdrop-blur-glass text-sm lg:text-base relative overflow-hidden group">
+          <span class="relative z-10">Services</span>
+          <div class="absolute inset-0 bg-gradient-to-r from-brand-accent/20 to-brand-accent-end/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </a>
-        <a href="#about" class="text-brand-muted hover:text-brand-primary font-medium transition-all duration-200 px-3 lg:px-4 py-2 rounded-lg hover:bg-brand-surface text-sm lg:text-base">
-          About
+        <a href="#portfolio" class="nav-link text-brand-muted hover:text-brand-primary font-medium transition-all duration-300 px-3 lg:px-4 py-2 rounded-lg hover:bg-glass-light hover:backdrop-blur-glass text-sm lg:text-base relative overflow-hidden group">
+          <span class="relative z-10">Portfolio</span>
+          <div class="absolute inset-0 bg-gradient-to-r from-brand-accent/20 to-brand-accent-end/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </a>
-        <a href="#contact" class="text-brand-muted hover:text-brand-primary font-medium transition-all duration-200 px-3 lg:px-4 py-2 rounded-lg hover:bg-brand-surface text-sm lg:text-base">
-          Contact
+        <a href="#contact" class="nav-link text-brand-muted hover:text-brand-primary font-medium transition-all duration-300 px-3 lg:px-4 py-2 rounded-lg hover:bg-glass-light hover:backdrop-blur-glass text-sm lg:text-base relative overflow-hidden group">
+          <span class="relative z-10">Contact</span>
+          <div class="absolute inset-0 bg-gradient-to-r from-brand-accent/20 to-brand-accent-end/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </a>
       </nav>
 
       <!-- Mobile Menu Button -->
-      <button class="md:hidden p-2 rounded-lg hover:bg-brand-surface transition-colors duration-200 flex-shrink-0" aria-label="Menu">
+      <button class="md:hidden p-2 rounded-lg glass-card hover:bg-glass-light transition-all duration-300 flex-shrink-0 hover-scale" aria-label="Menu">
         <svg class="w-6 h-6 text-brand-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
 
-      <!-- Actions -->
-      <div class="hidden md:flex items-center space-x-2 lg:space-x-3 flex-shrink-0">
-        <!-- <button class="hidden lg:inline-flex btn-secondary text-sm">
-          Get Quote
-        </button> -->
-        <button class="btn-primary text-sm lg:text-base whitespace-nowrap">
-          Start Project
+      <!-- Mobile-Enhanced Actions -->
+      <div class="hidden sm:flex items-center space-x-2 lg:space-x-3 flex-shrink-0">
+        <button class="btn-glass text-xs sm:text-sm lg:text-base whitespace-nowrap hover-lift px-3 sm:px-4 py-2 sm:py-2.5">
+          <span class="flex items-center space-x-1.5 sm:space-x-2">
+            <span class="hidden md:inline">Get Quote</span>
+            <span class="md:hidden">Quote</span>
+            <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+          </span>
+        </button>
+        <button class="btn-primary text-xs sm:text-sm lg:text-base whitespace-nowrap hover-lift px-3 sm:px-4 py-2 sm:py-2.5">
+          <span class="flex items-center space-x-1.5 sm:space-x-2">
+            <span class="hidden md:inline">Start Project</span>
+            <span class="md:hidden">Start</span>
+            <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <!-- Mobile-Only Action Button -->
+      <div class="sm:hidden flex items-center space-x-2">
+        <button class="btn-primary text-xs px-3 py-2 hover-lift">
+          <span class="flex items-center space-x-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            </svg>
+            <span>Start</span>
+          </span>
         </button>
       </div>
     </div>
